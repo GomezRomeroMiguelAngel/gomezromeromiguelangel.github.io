@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Diseño 4</title>
+</head>
+<body>
+    <header>
+        <div class="logovirtual">
+            <img src="./img/logo.png" alt="imagen1">
+        </div>
+        <nav class="navegador">
+            <ul>
+                <li><a href="">ADMIN</a></li>
+                <li><a href="">RECORDS</a></li>
+                <li><a href="">INTERACT</a></li>
+                <li><a href="">CALENDAR</a></li>
+                <li><a href="">PROVIDERS</a></li>
+                <li><a href="">SETTINGS</a></li>
+            </ul>
+        </nav>
+        <a href="" class="login"><button>Log in</button></a>
+    </header>
+    <main>
+        <aside>
+            <nav class="menu-izquierdo">
+                <ul>
+                    <li><a href=""><img src="./img/clients.png" alt="imagen2" width="30px" height="30px" style="padding-right: 10px; display: flexbox; padding-top: 10px;"> CLIENTS</a></li>
+                    <li><a href=""><img src="./img/monitoring.png" alt="imagen2" width="30px" height="30px" style="padding-right: 10px; display: flexbox; padding-top: 10px;"> MONITORING</a></li>
+                    <li><a href=""><img src="./img/reporting.png" alt="imagen2" width="30px" height="30px" style="padding-right: 10px; display: flexbox; padding-top: 10px;"> REPORTING</a></li>
+                    <li><a href=""><img src="./img/locations.png" alt="imagen2" width="30px" height="30px" style="padding-right: 10px; display: flexbox; padding-top: 10px;"> LOCATIONS</a></li>
+                    <li><a href=""><img src="./img/logs.png" alt="imagen2" width="30px" height="30px" style="padding-right: 10px; display: flexbox; padding-top: 10px;"> LOGS</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <div class="fondo-principal">
+            <div class="menu-3">
+                <nav class="menu-izq">
+                    <ul>
+                        <li><a href="">Alerts</a></li>
+                        <li><a href="">Tasks</a></li>
+                        <li><a href="">Risk</a></li>
+                        <li><a href="">Authorizations</a></li>
+                        <li><a href="">Vitals</a></li>
+                    </ul>
+                </nav>
+                <nav class="menu-der">
+                    <ul>
+                        <li><a href="">Resolved</a></li>
+                        <li><a href="">Underresolved</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="formulario">
+                <div class="cuatro-campos">
+                    <div class="nombre">
+                        <label for="nombre">First name:</label>
+                        <br><br>
+                        <input type="name" name="nombre" id="nombre" minlength="8" maxlength="15" placeholder="Name" required >
+                    </div>
+                    <div class="apellidos">
+                        <label for="apellido">Last name:</label>
+                        <br><br>
+                        <input type="name" name="apellido" id="apellido" minlength="8" maxlength="15" placeholder="Last name" required>
+                    </div>
+                    <div class="fecha1">
+                        <label for="fecha-inicio">Start date:</label>
+                        <br><br>
+                        <input type="date">
+                    </div>
+                    <div class="fecha2">
+                        <label for="fecha-fin">End date:</label>
+                        <br><br>
+                        <input type="date">
+                    </div>
+                </div>
+
+                <br>
+                <label for="range" class="fecha-rango">Date range:</label>
+                <label for="source" class="source">Source:</label>
+                <br>
+                <input type="submit" value="1 day" class="botones1">
+                <input type="submit" value="7 days" class="botones2">
+                <input type="submit" value="30 days" class="botones3">
+                <input type="submit" value="90 days" class="botones4">
+                <input type="submit" value="All" class="botones5">
+
+                <select name="tipo" id="source" required>
+                    <option value="opcion1">Select source</option>
+                
+                <input type="submit" value="Search" class="buscar">
+                <input type="submit" value="x" class="cancelar">
+            </div>
+
+            <div class="tabla">
+                <table>
+                    <tr>
+                        <th>Date/Times of alerts</th>
+                        <th>Client name</th>
+                        <th>Source</th>
+                        <th>Value</th>
+                        <th>Alert</th>
+                        <th>Alert type</th>
+                    </tr>
+                    <tr>
+                        <td>08/01/2016 01:01 pm</td>
+                        <td>Doe,john</td>
+                        <td>Clinical pulse nake</td>
+                        <td>N/A</td>
+                        <td class="texto-rojo"><b>Over 2 days</b></td>
+                        <td>Time-based</td>
+                    </tr>
+                    <tr>
+                        <td>08/01/2016 01:01 pm</td>
+                        <td>Doe,john</td>
+                        <td>Clinical pulse nake</td>
+                        <td>N/A</td>
+                        <td class="texto-rojo"><b>Over 2 days</b></td>
+                        <td>Time-based</td>
+                    </tr>
+                    <tr>
+                        <td>08/01/2016 01:01 pm</td>
+                        <td>Doe,john</td>
+                        <td>Clinical pulse nake</td>
+                        <td>N/A</td>
+                        <td class="texto-rojo"><b>Over 2 days</b></td>
+                        <td>Time-based</td>
+                    </tr>
+                    <tr>
+                        <td>08/01/2016 01:01 pm</td>
+                        <td>Doe,john</td>
+                        <td>Clinical pulse nake</td>
+                        <td class="texto-rojo"><b>$ #UI</b></td>
+                        <td class="texto-rojo"><b>Over 2 days</b></td>
+                        <td>Time-based</td>
+                    </tr>
+                    <tr>
+                        <td>08/01/2016 01:01 pm</td>
+                        <td>Doe,john</td>
+                        <td>Clinical pulse nake</td>
+                        <td>N/A</td>
+                        <td class="texto-rojo"><b>Over 2 days</b></td>
+                        <td>Time-based</td>
+                    </tr>
+                    <tr>
+                        <td>08/01/2016 01:01 pm</td>
+                        <td>Doe,john</td>
+                        <td>Clinical pulse nake</td>
+                        <td>N/A</td>
+                        <td class="texto-rojo"><b>Over 2 days</b></td>
+                        <td>Time-based</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>

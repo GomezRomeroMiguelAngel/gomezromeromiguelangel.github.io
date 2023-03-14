@@ -1,0 +1,340 @@
+@font-face {
+    font-family:'myFuente' ;
+    src: url('../font/TiltWarp-Regular.ttf');
+}
+@font-face {
+    font-family:'myFuente2' ;
+    src: url('../font/Quicksand-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 10px 10px;
+}
+
+.navegador li{
+    display: inline-block;
+  }
+
+.navegador a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: white;
+    padding: 10px;
+    display: inline-block;
+    opacity: .7;
+    border-radius: 5px;
+    font-family: 'myFuente',Arial, Helvetica, sans-serif;
+}
+  
+.navegador a:hover{
+    opacity: 1;
+    color: blue;
+}
+
+.login button{
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    padding-right: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+.login button:hover{
+    color: blue;
+}
+
+main{
+    display: flex;
+    justify-content: flex-start;
+}
+
+aside{
+    float: left;
+    width: 25%;
+    height: 85vh;
+    background-color: blue;
+}
+
+.menu-izquierdo a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: blue;
+    display: inline-block;
+    width: 100%;
+    height: 70px;
+    font-family: 'myFuente',Arial, Helvetica, sans-serif;
+    justify-content: center;
+    padding-top: 12px;
+    padding-left: 20px;
+}
+
+.menu-izquierdo a:hover{
+    background-color:#5d99c7; 
+}
+
+.fondo-principal{
+    width: 100%;
+    height: 100%;
+    background-color: gainsboro;
+}
+
+.menu-3{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: gainsboro;
+    border-bottom: solid rgb(146, 145, 145);
+    padding-left: 30px;
+}
+
+.menu-izq li{
+    display: inline-block;
+    padding: 10px 30px;
+    opacity: .8;
+}
+
+.menu-izq a{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(124, 122, 122);
+    font-family: 'myFuente2','Courier New', Courier, monospace;
+}
+
+.menu-izq a:hover{
+    color:black;
+}
+
+.menu-der{
+    padding-left: 240px;
+}
+
+.menu-der li{
+    display: inline-block;
+    padding: 10px 30px;
+    opacity: .8;
+}
+
+.menu-der a{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(124, 122, 122);
+    font-family: 'myFuente2','Courier New', Courier, monospace;
+}
+
+.menu-der a:hover{
+    color: blue;
+}
+
+.formulario{
+    height: 190px;
+    width: 170vh;
+    margin-left: 45px;
+    margin-top: 20px;
+    margin-right: 25px;
+    padding-top: 25px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.cuatro-campos{
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: 'myFuente2';
+    font-size: 15px;
+}
+
+.nombre input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: 3px solid #39c;
+}
+
+.apellidos input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: 3px solid #39c;
+}
+
+.fecha1 input{
+    height: 30px;
+    border-radius: 5px;
+    border: 3px solid #39c;
+}
+
+.fecha2 input{
+    height: 30px;
+    border-radius: 5px;
+    border: 3px solid #39c;
+}
+
+.fecha-rango{
+    margin-left: 25px;
+    justify-content:left;
+    font-family: 'myFuente2';
+    font-size: 15px;
+}
+
+.source{
+    margin-left: 565px;
+    font-family: 'myFuente2';
+    font-size: 15px;
+}
+
+.formulario  select{
+    margin-left: 80px;
+}
+
+.botones1{
+    color: grey;
+    background:whitesmoke;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid #39c;
+    width: 70px;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+.botones1:hover{
+    border: 1px solid blue;
+}
+
+.botones2{
+    color: grey;
+    background:whitesmoke;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid #39c;
+    width: 70px;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+.botones2:hover{
+    border: 1px solid blue;
+}
+
+.botones3{
+    color: grey;
+    background:whitesmoke;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid #39c;
+    width: 70px;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+.botones3:hover{
+    border: 1px solid blue;
+}
+
+.botones4{
+    color: grey;
+    background:whitesmoke;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid #39c;
+    width: 70px;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+.botones4:hover{
+    border: 1px solid blue;
+}
+
+.botones5{
+    color: grey;
+    background:whitesmoke;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid #39c;
+    width: 70px;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+.botones5:hover{
+    border: 1px solid blue;
+}
+
+
+.buscar{
+    margin-left: 50px;
+    background-color: blue;
+    width: 120px;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.buscar:hover{
+    background-color:  #39c;
+}
+
+.cancelar{
+    margin-left: 25px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+.cancelar:hover{
+    border: 1px solid red;
+    color: red;
+}
+
+.tabla{
+    height: 280px;
+    width: 170vh;
+    margin-left: 45px;
+    margin-top: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.tabla th{
+    border-left: 2px solid gainsboro;
+    border-bottom: 2px solid gainsboro;
+    text-align: center;
+    width: 10%;
+    height: 50px;
+    font-family: 'myFuente';
+    font-size: 15px;
+}
+
+.tabla td{
+    border-left: 2px solid gainsboro;
+    border-bottom: 2px solid gainsboro;
+    text-align: center;
+    height: 30px;
+    font-family: 'myFuente2';
+    font-size: 12px;
+}
+
+.texto-rojo{
+    color: red;
+}
