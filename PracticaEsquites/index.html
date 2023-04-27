@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Squites</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="formulario">
+        <h1>Orden de Esquites</h1>
+        <form>
+          <label for="cliente">Nombre Cliente: </label>
+          <input type="text" name="ap_pat" id="cliente" minlength="8" maxlength="12" required placeholder="Ingresa tu nombre">
+          <br>
+          <label for="pin">Pin Cliente: </label>
+          <input type="password" name="pin" id="pin" minlength="4" maxlength="4" required pattern="[0-9]{4}" placeholder="Ingresa tu pin">
+          <br>
+          <label for="tamaño">Tamaño de vaso: </label>
+          <input type="number" name="tamaño" id="tamaño" min="10" max="15" step="1" required>
+          <br>
+          <label for="seleccion">Tipo de chile</label>
+          <select name="seleccion" id="seleccion">
+            <option value="opcion1">del que pica</option>
+            <option value="opcion2">del que no pica</option>
+            <option value="opcion3" selected>de arbol</option>
+            <option value="opcion4">de chapulin</option>
+          </select>
+          <br>
+          <label for="rango">Cantidad de chile</label>
+          <input type="range" min="10" max="15" step="1" name="rango" id="rango" required>
+          <br>
+          <label for="opciones">Con limon: </label>
+          <input type="radio" name="opciones" id="opcion1l" value="Si">
+          <label for="opcion1l">Si</label>
+          <input type="radio" name="opciones" id="opcion2l" value="No">
+          <label for="opcion2l">No</label>
+          <br>
+          <label for="opciones2">Ingrediente extra: </label>
+          <input type="checkbox" name="opciones2" id="opcion1" value="Opcion 1">
+          <label for="opcion1">Buffalo</label>
+          <input type="checkbox" name="opciones2" id="opcion2" value="Opcion 2">
+          <label for="opcion2">Valentina</label> 
+          <input type="checkbox" name="opciones2" id="opcion3" value="Opcion 3">
+          <label for="opcion3">Tajin</label> 
+          <br>
+          <label for="area1">Comentario:</label>
+          <br>
+          <textarea name="area1" id="area1" cols="45" rows="10">
+          
+          </textarea>
+          <br>
+          <input type="submit" value="Pedir">
+          <input type="reset" value="Cancelar orden">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
