@@ -1,0 +1,202 @@
+body{
+    background-color: white;
+}
+
+.navegador{
+    display: block;
+    background-color: gold;
+    color: black;
+    font-style: italic;
+    font: bold;
+    font-size: 20px;
+    text-align: center;
+    width: 500px;
+    margin-left: 360px;
+}
+
+li{
+    display: inline-block;
+}
+
+#principal{
+    padding: 15px;
+    margin: 5px;
+    background-color: blue;
+    color: white;
+    width: 100px;
+    text-decoration: none;/*Quitar subrayado blanco*/
+    /*border-radius: 25px 20px 10px 5px;*/
+     /*Una sola linea con 4 valores: sup izq ! sup der  !  inf der  !  inf izq*/
+     border-radius: 25px 5px;
+      /*Una sola linea con 4 valores: sup izq & inf der  !  sup der % inf izq*/
+
+}
+
+#historia{
+    padding: 15px;
+    margin: 5px;
+    background-color: brown;
+    color: white;
+    width: 100px;
+    text-decoration: none;/*Quitar subrayado blanco*/
+    /*border-radius: 25px 20px 10px 5px;*/
+     /*Una sola linea con 4 valores: sup izq ! sup der  !  inf der  !  inf izq*/
+     border-radius: 25px 5px;
+      /*Una sola linea con 4 valores: sup izq & inf der  !  sup der % inf izq*/
+
+}
+
+#genero{
+    padding: 15px;
+    margin: 5px;
+    background-color: orange;
+    color: white;
+    width: 100px;
+    text-decoration: none;/*Quitar subrayado blanco*/
+    /*border-radius: 25px 20px 10px 5px;*/
+     /*Una sola linea con 4 valores: sup izq ! sup der  !  inf der  !  inf izq*/
+     border-radius: 25px 5px;
+      /*Una sola linea con 4 valores: sup izq & inf der  !  sup der % inf izq*/
+
+}
+
+#popularidad{
+    padding: 15px;
+    margin: 5px;
+    background-color: green;
+    color: white;
+    width: 100px;
+    text-decoration: none;/*Quitar subrayado blanco*/
+    /*border-radius: 25px 20px 10px 5px;*/
+     /*Una sola linea con 4 valores: sup izq ! sup der  !  inf der  !  inf izq*/
+     border-radius: 25px 5px;
+      /*Una sola linea con 4 valores: sup izq & inf der  !  sup der % inf izq*/
+
+}
+
+#comentarios{
+    padding: 15px;
+    margin: 5px;
+    background-color: red;
+    color: white;
+    width: 100px;
+    text-decoration: none;/*Quitar subrayado blanco*/
+    /*border-radius: 25px 20px 10px 5px;*/
+     /*Una sola linea con 4 valores: sup izq ! sup der  !  inf der  !  inf izq*/
+     border-radius: 25px 5px;
+      /*Una sola linea con 4 valores: sup izq & inf der  !  sup der % inf izq*/
+
+}
+
+.separador{
+    height: 5px;
+    background-color: black;
+}
+
+.opcion1{
+    display: inline-block;
+    border-radius: 5px;
+    width: 400px;
+    height: 80px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.opcion2{
+    display: inline-block;
+    border-radius: 5px;
+    width: 400px;
+    height: 80px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.separador2{
+    height: 5px;
+    background-color: black;
+}
+
+.pie{
+    display: inline-block;
+    background-color: orangered;
+    margin-top: 10px;
+}
+
+.pie-2{
+    background-color: gray;
+    color: black;
+    width: 280px;
+    height: 80px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.formulario{
+    border-radius:10px 10px 10px 10px;
+    background-color: #F7ECEB;
+    width: 500px;
+    height: 400px;
+  }
+
+.img-com{
+    display: inline-block;
+    border-radius:10px 10px 10px 10px;
+  }
+  
+
+  #fondo-com{
+    background-color: #85889C;
+  }
+
+  .img-com{
+    margin-left: 50px;
+    padding-top: 50px;
+  }
+
+  form{
+    text-align: center;
+  }
+
+  .titulo-genero{
+    display: inline-block;
+    text-align: center;
+    margin-right: 200px;
+  }
+
+  .general{
+    text-align: center;
+  }
+  .titulo-popu{
+    display: inline-block;
+    color: goldenrod;
+    width: 400px;
+    height: auto;
+    margin-right: 200px;
+  }
+
+  .spotify-logo{
+    width: 400px;
+    height: auto;
+  }
+
+
+  .titulo-historia{
+    display: inline-block;
+    text-align: center;
+    color: chocolate;
+    margin-right: 200px;
+  }
+
+  h2{
+    background-color: orangered;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .contenedor-img{
+    display: flex;
+  }

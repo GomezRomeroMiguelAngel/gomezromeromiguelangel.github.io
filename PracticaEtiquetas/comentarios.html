@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Comentarios</title>
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body id="fondo-com">
+      <div class="img-com">
+        <img src="./img/comentario.png" alt="Img comentario" width="400px" height="400px">
+      </div>
+      <div class="img-com formulario">
+        <h1 style="text-align: center; margin-top: -10px;">Envianos un comentario</h1>
+        <form>
+          <label for="cliente">Nombre completo: </label>
+          <input type="text" name="ap_pat" id="cliente" minlength="8" maxlength="12" required placeholder="Ingresa tu nombre">
+          <br>
+          <label for="emai">Ingresa tu correo: </label>
+          <input type="email" name="emai" id="emai" placeholder="Ingresa tu correo">
+          <br>
+          <br>
+          <label for="cali">Califica la pagina: </label>
+          <input type="range" name="cali" id="cali" min="5" max="10" step="1" list="lista" required>
+          <datalist id="lista">
+            <option value="5" label="5">
+            <option value="6" label="6">
+            <option value="7" label="7">
+            <option value="8" label="8">
+            <option value="9" label="9">
+            <option value="10" label="10"></option>
+          </datalist>
+          <br>
+          <br>
+          <label for="seleccion">¿Recomendarias la página?</label>
+          <select name="seleccion" id="seleccion">
+            <option value="opcion1">Si lo haria</option>
+            <option value="opcion2">Tal vez lo haga</option>
+            <option value="opcion3">No lo haria</option>
+          </select>
+          <br>
+          <label for="area1">Comentario:</label>
+          <br>
+          <textarea name="area1" id="area1" cols="45" rows="10">
+          
+          </textarea>
+          <br>
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Borrar datos">
+        </form>
+      </div>
+  </body>
+  <footer>
+    <br>
+    <div class="separador separador2"></div>
+    <div class="pie">
+        <figure>
+            <img src="./img/logo.png" alt="logo ITO" width="50px" height="50px">
+            <figcaption>Logo ITO</figcaption>
+        </figure>
+    </div>
+    <div class="pie pie-2">
+        <p>Hecho por: Gomez Romero Miguel Angel</p>
+        <p style="text-align: center;">Derechos de autor</p>
+    </div>
+</footer>
+</html>
